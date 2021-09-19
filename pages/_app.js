@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import "./global.css";
 import "./bootstrap.css";
 import "./mdl.css";
