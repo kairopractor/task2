@@ -1,0 +1,27 @@
+.header {
+}
+
+.navigation {
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.item {
+}
+.link {
+  padding: 26px;
+  display: block;
+  text-decoration: none;
+  color: #18191f;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.link:hover {
+  text-decoration: underline;
+}

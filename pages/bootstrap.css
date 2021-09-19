@@ -1,0 +1,74 @@
+.highlight {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 576px) {
+  .highlight {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+  white-space: pre;
+  background-color: transparent;
+  border: 0;
+}
+
+.highlight pre code {
+  font-size: inherit;
+  color: #212529;
+  word-wrap: normal;
+}
+
+.bd-content .highlight {
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+
+@media (min-width: 576px) {
+  .bd-content .highlight {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.bd-clipboard {
+  position: relative;
+  display: none;
+  float: right;
+}
+
+.bd-clipboard + .highlight {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .bd-clipboard {
+    display: block;
+  }
+}
+
+.btn-clipboard {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  z-index: 10;
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.65em;
+  color: #0d6efd;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+
+.btn-clipboard:hover,
+.btn-clipboard:focus {
+  color: #fff;
+  background-color: #0d6efd;
+}
