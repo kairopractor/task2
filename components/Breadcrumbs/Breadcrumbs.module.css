@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link {
+  color: grey;
+  display: block;
+  text-decoration: none;
+}
+
+.link + .link::before {
+  content: "/";
+  color: grey;
+  pointer-events: none;
+  padding-right: 10px;
+}

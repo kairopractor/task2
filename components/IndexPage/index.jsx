@@ -4,11 +4,25 @@ import bootstrap from "../../public/bootstrap.png";
 import tailwind from "../../public/tailwind.png";
 import mdl from "../../public/mdl.png";
 import antd from "../../public/antd.svg";
+import koshka from "../../public/koshka.png";
 
 export default function Home() {
   return (
     <div className={styles.root}>
-      <h1 className={styles.title}>CSS фреймворки</h1>
+      <h1 className={styles.title}>Системы модульной верстки</h1>
+      <p className={styles.description}>
+        
+        Модульная система вёрстки — система вёрстки, при которой основой
+        композиции полос и разворотов становится модульная сетка с определенным
+        шагом (модулем), одинаковым или разным по горизонтали и вертикали.
+        Модульная система упрощает и ускоряет художественное конструирование и
+        создаёт благоприятные условия для автоматизации вёрстки при
+        использовании компьютерных настольно-издательских систем.
+        
+      </p>
+      <Image src={koshka}/>
+
+      <h2 className={styles.title}>CSS фреймворки</h2>
 
       <ul className={styles.grid}>
         <li className={styles.card}>
