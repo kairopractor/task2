@@ -1,15 +1,15 @@
+import FlexPage from "../components/FlexBoxPage";
 import Head from "next/head";
-import IndexPage from "../components/IndexPage";
+
 
 export default function Home() {
   return (
-    <>
+    <div className="container">
       <Head>
-        <title>CSS Frameworks</title>
+        <title>FlexBox</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <IndexPage />
-    </>
+      <FlexPage />
+    </div>
   );
 }

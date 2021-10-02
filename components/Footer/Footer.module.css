@@ -1,7 +1,14 @@
 .footer {
   background-color: black;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
 }
 
 .copyright {
@@ -10,5 +17,4 @@
   font-weight: normal;
   font-size: 14px;
   color: #d9dbe1;
-  padding: 24px;
 }
