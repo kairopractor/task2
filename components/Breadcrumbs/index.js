@@ -7,9 +7,9 @@ export default function Breadcrumbs({ breadcrumbs }) {
         {breadcrumbs[0].name}
       </a>
       {breadcrumbs.length > 1 && (
-        <a href="/" className={styles.link}>
+        <p className={styles.link}>
           {breadcrumbs[1].name}
-        </a>
+        </p>
       )}
     </nav>
   );

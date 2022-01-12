@@ -6,6 +6,11 @@ export default function Header() {
       <nav className={styles.navigation}>
         <ul className={styles.list}>
           <li className={styles.item}>
+            <a href="/" className={styles.link}>
+              HOME
+            </a>
+          </li>
+          <li className={styles.item}>
             <a href="/bootstrap" className={styles.link}>
               Bootstrap
             </a>
@@ -16,11 +21,6 @@ export default function Header() {
             </a>
           </li>
           <li className={styles.item}>
-            <a href="/" className={styles.link}>
-              HOME
-            </a>
-          </li>
-          <li className={styles.item}>
             <a href="/mdl" className={styles.link}>
               Material Design Lite
             </a>
@@ -28,6 +28,11 @@ export default function Header() {
           <li className={styles.item}>
             <a href="/antd" className={styles.link}>
               AntD
+            </a>
+          </li>
+          <li className={styles.item}>
+            <a href="/flexbox" className={styles.link}>
+              Flexbox Page
             </a>
           </li>
         </ul>

@@ -77,14 +77,7 @@ export default function Home() {
         <p></p>
         <script src="assets/index.js" async=""></script>
       </div>
-      <section className="docs-text-styling download mdl-color--grey-800">
-        <a
-          href="./started/index.html#download"
-          className="mdl-color-text--grey-50"
-        >
-          Download Kit
-        </a>
-      </section>
+      
     </main>
   );
 }

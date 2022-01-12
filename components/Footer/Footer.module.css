@@ -1,14 +1,10 @@
 .footer {
-  background-color: black;
+  background-color: chocolate;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  
   padding: 24px;
-}
-
-.link {
-  color: white;
-  text-decoration: underline;
 }
 
 .copyright {

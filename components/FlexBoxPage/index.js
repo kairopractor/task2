@@ -2,7 +2,7 @@ import styles from "./Flexbox.module.css";
 
 export default function Flexbox() {
   return (
-    <>
+    <div className={styles.div}>
       <header className={styles.header}>
         <h1 className={styles.title}>Complex flexbox example</h1>
       </header>
@@ -36,20 +36,15 @@ export default function Flexbox() {
 
         <article className={styles.article}>
           <div>
-            <button className={styles.button}>Smile</button>
-            <button className={styles.button}>Laugh</button>
-            <button className={styles.button}>Wink</button>
-            <button className={styles.button}>Shrug</button>
-            <button className={styles.button}>Blush</button>
+            <button className={styles.button}>BUTTON1</button>
+            <button className={styles.button}>BUTTON2</button>
+            <button className={styles.button}>BUTTON3</button>
+            <button className={styles.button}>BUTTON4</button>
+            <button className={styles.button}>BUTTON5</button>
           </div>
           <div>
             <p className={styles.paragraph}>
-              Tacos actually microdosing, pour-over semiotics banjo chicharrones
-              retro fanny pack portland everyday carry vinyl typewriter. Tacos
-              PBR&B pork belly, everyday carry ennui pickled sriracha normcore
-              hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed
-              trust fund twee, leggings salvia iPhone photo booth health goth
-              gastropub hammock.
+              Кнопки обернуты и расположены в колонну.
             </p>
           </div>
           <div>
@@ -63,6 +58,6 @@ export default function Flexbox() {
           </div>
         </article>
       </section>
-    </>
+    </div>
   );
 }

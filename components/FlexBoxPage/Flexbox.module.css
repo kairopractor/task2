@@ -3,6 +3,13 @@
   height: 100px;
 }
 
+.div {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+}
+
 .title {
   text-align: center;
   color: white;
@@ -41,7 +48,7 @@
 .article:nth-of-type(3) div:first-child {
   flex: 1 100px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: space-around;
 }
